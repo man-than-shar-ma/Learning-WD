@@ -1,6 +1,3 @@
-const cs = [
-    'Snowfall'
-];
 
 let cards = document.getElementById('cards');
 
