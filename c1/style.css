@@ -8,8 +8,8 @@ section
 {
     background: url(res/snowy_hills.jpg);
     background-size: cover;
-    width: 100%;
-    height: 700px;
+    width: 100vw;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -23,8 +23,8 @@ section
     position: absolute;
     top: 0;
     left: 0;
-    animation: animateOne 10s infinite linear;
-    filter: blur(0.25px);
+    animation: animateOne 2s infinite linear;
+    filter: blur(1px);
 }
 
 .snow2
@@ -36,9 +36,9 @@ section
     position: absolute;
     top: 0;
     left: 0;
-    animation: animateTwo 10s infinite linear;
+    animation: animateTwo 5s infinite linear;
     background-size: 150px;
-    filter: blur(0.5px);
+    filter: blur(1.5px);
 }
 
 .snow3
@@ -50,9 +50,9 @@ section
     position: absolute;
     top: 0;
     left: 0;
-    animation: animateThree 10s infinite linear;
+    animation: animateThree 8s infinite linear;
     background-size: 100px;
-    filter: blur(1px);
+    filter: blur(2px);
 }
 
 @keyframes animateOne
