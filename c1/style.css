@@ -36,7 +36,7 @@ section
     position: absolute;
     top: 0;
     left: 0;
-    animation: animateTwo 5s infinite linear;
+    animation: animateTwo 4s infinite linear;
     background-size: 150px;
     filter: blur(1.5px);
 }
@@ -50,7 +50,7 @@ section
     position: absolute;
     top: 0;
     left: 0;
-    animation: animateThree 8s infinite linear;
+    animation: animateThree 6s infinite linear;
     background-size: 100px;
     filter: blur(2px);
 }
