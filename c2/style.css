@@ -1,0 +1,131 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background: url(res/hills.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-position: right;
+}
+
+.container img{
+    width: 1500px;
+}
+
+.container .cloud1
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudOne infinite 20s linear;
+    animation-delay: -5s;
+}
+
+.container .cloud2
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudTwo infinite 25s linear;
+}
+
+.container .cloud3
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudThree infinite 15s linear;
+    animation-delay: -10s;
+}
+
+.container .cloud4
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudFour infinite 30s linear;
+    animation-delay: -15s;
+}
+
+.container .cloud5
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudOne infinite 20s linear;
+    animation-delay: -15s;
+}
+
+.container .cloud6
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudTwo infinite 25s linear;
+    animation-delay: -45s;
+}
+
+.container .cloud7
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudThree infinite 15s linear;
+    animation-delay: -25s;
+}
+
+.container .cloud8
+{
+    position: absolute;
+    bottom: -700px;
+    animation: cloudFour infinite 30s linear;
+    animation-delay: -35s;
+}
+
+@keyframes cloudOne
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes cloudTwo
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes cloudThree
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes cloudFour
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
