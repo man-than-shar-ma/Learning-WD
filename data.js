@@ -1,3 +1,4 @@
 const cs = [
-    'Snowfall'
+    'Snowfall',
+    'Clouds'
 ];
