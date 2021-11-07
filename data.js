@@ -1,4 +1,5 @@
 const cs = [
     'Snowfall',
-    'Clouds'
+    'Clouds',
+    'Basic Scrolling Text'
 ];
